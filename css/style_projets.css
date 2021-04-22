@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('../fonts/Aaargh-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.txt h1,
+.txt h3 {
+    font-family: 'aaarghnormal', 'sans-serif';
+}
+
+.content_project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CSS COMPTEUR DE VUES */
+
+.counter_box {
+    width: 400px;
+    height: 60px;
+    background-color: rgb(214, 255, 206);
+    border: 2px solid rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 40px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="submit"] {
+    text-decoration: none;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    border: 2px solid rgb(85, 85, 85);
+    background-color: rgb(177, 177, 177);
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_counter {
+    margin-top: 40px;
+}
+
+
+/* CSS CRENEAUX MAGASIN */
+
+.dates_container {
+    background-color: rgb(177, 177, 177);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 2px solid rgb(85, 85, 85);
+    width: 762px;
+}
+
+@media all and (max-width: 860px) {
+    .dates_container {
+        width: 90%;
+    }
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/* CSS PANEL MULTICHOIX */
+
+.panel_container {
+    background-color: rgb(139, 146, 223);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 2px solid rgb(85, 85, 85);
+    width: 762px;
+}
+
+@media all and (max-width: 860px) {
+    .panel_container {
+        width: 90%;
+    }
+}
+
+
+/* CSS LECTURE & ECRITURE */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 15px;
+    padding: 20px 15px 20px 40px;
+}
+
+ul {
+    padding: 0 10px 0 10px;
+}
+
+.container_elem {
+    flex-wrap: wrap;
+    margin-right: 30px;
+    width: 80%;
+    text-align: justify;
+}
+
+.container_price {
+    width: 20%;
+    font-size: 35px;
+}
+
+.container:hover {
+    background-color: rgb(235, 204, 67);
+}
+
+h2,
+h1 {
+    text-align: center;
+}
+
+@media all and (max-width: 411px) {
+    .container_price {
+        font-size: 20px;
+    }
+}
+
+.news {
+    background-color: rgb(223, 208, 139);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 2px solid rgb(85, 85, 85);
+    width: 762px;
+}
+
+.pizza {
+    background-color: rgb(224, 209, 141);
+    border-radius: 20px;
+    margin: 20px;
+    border: 2px solid rgb(85, 85, 85);
+    width: 762px;
+}
+
+@media all and (max-width: 860px) {
+    .pizza {
+        width: 90%;
+    }
+    .news {
+        width: 90%;
+    }
+}
+
+
+/* CSS INTERDICTION - 18 ans */
+
+.BG_popup {
+    background-color: #9a8dee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    width: 500px;
+    height: 300px;
+    background-color: #db376e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px dashed #000000;
+}
